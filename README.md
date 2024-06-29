@@ -1,5 +1,6 @@
 # Video-Summarization
 <h2>Team Details</h2>
+<b>Team Number: </b><p>24AACL05</p>
 <b>Senior Mentor:</b><p> Rohitha Tunikpati</p>
 <b>Junior Mentor:</b><p> Yellanki Ekantha Sai Sundar</p>
 <b>Team Member 1:</b><p> Charshitha Saineni</p>
