@@ -7,3 +7,7 @@
 <b>Team Member 2:</b><p> Jahnavi Gummadi</p>
 <b>Team Member 3:</b><p> Kurukunda Srikari</p>
 <b>Team Member 4:</b><p> Popuri Pratima</p>
+
+<div align="center">
+    <h1>VIDEO SUMMARIZER</h1>
+</div>
