@@ -93,14 +93,14 @@ A **Streamlit-based web application** that extracts YouTube video transcripts, s
 
 <ol> <li>Open a terminal or command prompt in your project folder.</li> <li>Create a virtual environment to keep your dependencies isolated:</li> </ol>
 
-<pre><code># Windows python -m venv .venv
+<pre><code>#Windows python -m venv .venv
 
 macOS / Linux
 python3 -m venv .venv</code></pre>
 
 <ol start="3"> <li>Activate the virtual environment:</li> </ol>
 
-<pre><code># Windows .venv\Scripts\activate
+<pre><code># Windows .venv\Scripts\activate.ps1
 
 macOS / Linux
 source .venv/bin/activate</code></pre>
