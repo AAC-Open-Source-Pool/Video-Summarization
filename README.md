@@ -91,17 +91,29 @@ A **Streamlit-based web application** that extracts YouTube video transcripts, s
 
 <h2>▶️ How to Run the Application</h2>
 
-<ol>
-  <li>Open a terminal or command prompt in the project directory.</li>
-  <li>Run the following command:</li>
-</ol>
+<ol> <li>Open a terminal or command prompt in your project folder.</li> <li>Create a virtual environment to keep your dependencies isolated:</li> </ol>
+
+<pre><code># Windows python -m venv .venv
+
+macOS / Linux
+python3 -m venv .venv</code></pre>
+
+<ol start="3"> <li>Activate the virtual environment:</li> </ol>
+
+<pre><code># Windows .venv\Scripts\activate
+
+macOS / Linux
+source .venv/bin/activate</code></pre>
+
+<ol start="4"> <li>Install the required libraries:</li> </ol>
+
+<pre><code>pip install -r requirements.txt</code></pre>
+
+<ol start="5"> <li>Launch the Streamlit application:</li> </ol>
 
 <pre><code>streamlit run app.py</code></pre>
 
-<ol start="3">
-  <li>The application will automatically open in your default web browser.</li>
-  <li>If it does not open automatically, access it using the link below:</li>
-</ol>
+<ol start="6"> <li>The application will automatically open in your default web browser. If it does not, access it at:</li> </ol>
 
 <pre><code>http://localhost:8501</code></pre>
 
