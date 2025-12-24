@@ -1,4 +1,4 @@
-# Video-Summarization
+# Video Summarization & Youtube Transcript Summarizer and Translator
 <h2>Team Details</h2>
 <b>Team Number: </b><p>24AACL05</p>
 <b>Senior Mentor:</b><p> Rohitha Tunikpati</p>
@@ -62,5 +62,97 @@ The Video Summarizer project is designed to process and summarize MP4 video file
 <p><b>1) Advanced Frame Analysis:</b> Developers can implement more sophisticated frame analysis techniques to improve summarization accuracy. Some of the techniques include- Optical Flow Analysis, Histogram-Based Methods, Structural Similarity Index (SSIM), Keyframe Extraction Using Clustering, Scene Change Detection,etc.</p>
 <p><b>2) Customizable Threshold:</b> The application can be enhanced to allow users to adjust the frame difference threshold for summarization.</p>
 <p><b>3) Batch Processing:</b> The system can be upgraded to enable batch processing of multiple video files for large-scale video summarization.</p>
+
+
+<div align="center">
+    <h1>YOUTUBE TRANSCRIPT SUMMARIZER & TRANSLATOR</h1>
+</div>
+
+<h2> 🎥Overview</h2>
+
+A **Streamlit-based web application** that extracts YouTube video transcripts, summarizes them based on a selected percentage, translates the summary into multiple languages (including Indian languages), and converts the translated summary into **audio using Text-to-Speech**.
+
+<h2>✨ Features</h2>
+
+- 🔗 Extract transcripts from YouTube videos  
+- ✂️ Summarize transcripts using a user-defined percentage  
+- 🌍 Translate summaries into multiple global and Indian languages  
+- 🔊 Convert translated summaries into speech (MP3 format)  
+- 🖥️ Simple, interactive, and user-friendly Streamlit interface
+
+<h2>🛠️ TechStack and Libraries Used</h2>
+
+- **Python**
+- **Streamlit** – for building the web UI  
+- **youtube-transcript-api** – to fetch YouTube video transcripts  
+- **NLTK** – for sentence tokenization  
+- **deep-translator** – for translating text  
+- **gTTS (Google Text-to-Speech)** – for audio generation  
+
+<h2>▶️ How to Run the Application</h2>
+
+<ol>
+  <li>Open a terminal or command prompt in the project directory.</li>
+  <li>Run the following command:</li>
+</ol>
+
+<pre><code>streamlit run app.py</code></pre>
+
+<ol start="3">
+  <li>The application will automatically open in your default web browser.</li>
+  <li>If it does not open automatically, access it using the link below:</li>
+</ol>
+
+<pre><code>http://localhost:8501</code></pre>
+
+<h2>🌐 Supported Languages</h2>
+<ul>
+  <li>English</li>
+  <li>Spanish</li>
+  <li>French</li>
+  <li>German</li>
+  <li>Hindi</li>
+  <li>Telugu</li>
+  <li>Tamil</li>
+  <li>Kannada</li>
+  <li>Malayalam</li>
+  <li>Marathi</li>
+  <li>Bengali</li>
+  <li>Gujarati</li>
+  <li>Punjabi</li>
+  <li>Odia</li>
+  <li>Assamese</li>
+  <li>Urdu</li>
+</ul>
+
+<h2>🧠 Application Workflow</h2>
+<ol>
+  <li>Enter a YouTube video URL</li>
+  <li>Fetch the transcript using <code>youtube-transcript-api</code></li>
+  <li>Summarize the transcript based on the selected percentage</li>
+  <li>Translate the summary into the chosen language</li>
+  <li>Convert the translated summary into audio</li>
+  <li>Play the audio directly within the application</li>
+</ol>
+
+<h2>⚠️ Limitations</h2>
+<ul>
+  <li>Works only for videos with publicly available transcripts</li>
+  <li>Uses extractive summarization, not AI-based abstractive summarization</li>
+  <li>Very long transcripts may be truncated due to API limits</li>
+  <li>Translation and Text-to-Speech depend on external services</li>
+</ul>
+
+<h2>🚀 Future Enhancements</h2>
+<ul>
+  <li>AI-based abstractive summarization using BERT / GPT</li>
+  <li>Keyword-based summaries</li>
+  <li>Download summaries as PDF or TXT</li>
+  <li>Improved user interface and accessibility</li>
+  <li>Support for additional languages</li>
+</ul>
+
+
+
 
 
