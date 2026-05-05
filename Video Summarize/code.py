@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 import subprocess
 from datetime import datetime
-
+# Minor improvement: added comment for better readability (no functional change)
 # Function to convert MP4 to NPY
 def mp4_to_npy(mp4_file, npy_file):
     cap = cv2.VideoCapture(mp4_file)
